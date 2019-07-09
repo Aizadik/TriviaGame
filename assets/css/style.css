@@ -1,0 +1,26 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSIe8R29z4AqUHPcvsN8CweRSDJy-uP3t9YUWoe93g89fYBgaA);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 82px;
+}
+
+h1,
+h2,
+#remaining-time {
+    text-align: center;
+    font-family: 'Racing Sans One', cursive;
+    color: rgba(0, 0, 0, 0.842);
+}
+
+.option {
+    margin: 15px;
+}
+
+#start-btn {
+    color: rgba(0, 0, 0, 0.842);
+    background-color: green;
+    font-family: 'Racing Sans One', cursive;
+}
