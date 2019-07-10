@@ -3,20 +3,19 @@ body {
     text-align: center;
 }
 
-h1 {
-    margin-bottom: 82px;
-}
-
-h1,
-h2,
-#remaining-time {
-    text-align: center;
+h3 {
+    margin-bottom: 95px;
     font-family: 'Racing Sans One', cursive;
     color: rgba(0, 0, 0, 0.842);
 }
 
-.option {
-    margin: 15px;
+h2,
+#time-remaining,
+#question,
+#results {
+    text-align: center;
+    font-family: 'Racing Sans One', cursive;
+    color: rgba(0, 0, 0, 0.842);
 }
 
 .container {
@@ -27,4 +26,8 @@ h2,
     color: rgba(0, 0, 0, 0.842);
     background-color: green;
     font-family: 'Racing Sans One', cursive;
+}
+
+.option {
+    margin: 20px;
 }
