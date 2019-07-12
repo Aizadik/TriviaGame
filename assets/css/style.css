@@ -28,6 +28,12 @@ h2,
     font-family: 'Racing Sans One', cursive;
 }
 
+#results {
+    margin-top: -15px;
+}
+
+
+
 .option {
     margin: 20px;
 }
