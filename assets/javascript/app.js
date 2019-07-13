@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    //TODO FIX THE BUG TO NON-DISPLAY ANSERS WHEN NEW GUESTION STARTS!
+
     // event listeners
     $("#remaining-time").hide();
     $("#start-btn").on('click', triviaGame.startGame);
