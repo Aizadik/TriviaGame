@@ -7,4 +7,4 @@
 #If you choose to replay the game simply hit start button again!
 #Pretty straightforward right, Enjoy the game now! 
 
-
+ ![Image description](assets/images/readMe.png)
