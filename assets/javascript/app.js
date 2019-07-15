@@ -77,7 +77,7 @@ var triviaGame = {
 
     // method to loop through and display questions and options 
     nextQuestion: function() {
-
+        $('#results').empty();
         // set timer to 12 seconds each question
         triviaGame.timer = 12;
         $('#timer').removeClass('last-seconds');
@@ -104,6 +104,7 @@ var triviaGame = {
 
     // method to decrement counter and count unanswered if timer runs out
     timerRunning: function() {
+
         // if timer still has time left and there are still questions left to ask
         if (triviaGame.timer > -1 && triviaGame.currentSet < Object.keys(triviaGame.questions).length) {
             $('#timer').text(triviaGame.timer);
@@ -158,6 +159,7 @@ var triviaGame = {
             clearInterval(triviaGame.timerId);
             resultId = setTimeout(triviaGame.guessResult, 1000);
             $('#results').html('<h4>Correct Answer!</h4>');
+            $('#results');
         }
         // else the user picked the wrong option, increment incorrect
         else {
